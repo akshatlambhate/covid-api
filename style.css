@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+body {
+    background: url("background.jpg");
+    background-size: cover;
+     margin: 0em 2em;
+}
+
+.covid {
+    margin-top: 2em;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 5px 2px black;
+}
+.page {
+    margin: 5em 0rem;
+}
+.new {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 2em 2.5em;
+    margin: 0 7em 2em 7em;
+}
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     padding: 2em 2.5em;
+     margin: 0 7em 2em 7em;
+}
+.newconfirmed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 15rem;
+    height: 9em;
+}
+.newdeath {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 15rem;
+    height: 9em;
+}
+
+.totalconfirmed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    width: 15rem;
+    height: 9em;
+}
+
+.totaldeath {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    width: 15rem;
+    height: 9em;
+}
+.new1 {
+    margin: 1.3em;
+    font-size: 1.3rem;
+}
+.new2 {
+    margin: 1.3em;
+    font-size: 1.3rem;
+
+}
+.total1 {
+    margin: 1em;
+    font-size: 1.3rem;
+}
+
+.total2{
+    margin: 1.3em;
+    font-size: 1.3rem;
+}
+@font-face {
+    font-family: numb;
+    src: url("Carre-JWja.ttf");
+}
+.new-Conf-data{
+    font-size: 1.5rem;
+    font-family: numb;
+
+}
+.new-death-data{
+    font-size: 1.5rem;
+    font-family: numb;
+
+}
+.total-conf-data{
+    font-size: 1.5rem;
+    font-family: numb;
+
+}
+.total-death-data{
+    font-size: 1.5rem;
+    font-family: numb;
+    text-align: center;
+
+}
